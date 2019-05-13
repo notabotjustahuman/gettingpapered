@@ -21,7 +21,7 @@ h2 {
 .logo {
   height: 120px;
   width: 120px;
-  padding-left: 275px;
+  padding-left: 265px;
 }
 
 .logo2 {
@@ -31,11 +31,14 @@ h2 {
 }
 
 #navbar {
-  background: #F25457;
+  overflow: hidden;
+  position: relative;
+  background: #FF0000;
   text-align: center;
-  height: 90px;
+  height: 100px;
   margin-left: 60px;
   margin-right: 60px;
+  bottom: 16px;
 }
 
 #navbar ul li  {
@@ -65,4 +68,17 @@ a:hover {
 .search-form input:hover[type="submit"] {
   background: #7E0089;
   color: white;
+}
+
+.test {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+}
+
+.sticky + .test {
+  padding-top: 60px;
 }
