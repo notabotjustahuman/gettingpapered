@@ -110,4 +110,20 @@ a {
 .news-pictures {
   width: 220px;
   height: 160px;
+  right: 215px;
+  bottom: 10px;
+  padding-left: 370px;
+}
+
+.content {
+  position: relative;
+  text-align: left;
+  float: left;
+  word-break: break-word;
+  left: 340px;
+  width: 300px;
+}
+
+div {
+  height: 250px;
 }
