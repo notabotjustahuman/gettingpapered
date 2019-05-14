@@ -112,6 +112,7 @@ a {
   height: 160px;
   right: 215px;
   bottom: 10px;
+  padding-top: 18px;
   padding-left: 370px;
 }
 
@@ -126,4 +127,9 @@ a {
 
 div {
   height: 250px;
+}
+
+hr {
+  align: center;
+  width: 666px;
 }
