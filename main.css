@@ -69,16 +69,3 @@ a:hover {
   background: #7E0089;
   color: white;
 }
-
-.test {
-  padding: 16px;
-}
-
-.sticky {
-  position: fixed;
-  top: 0;
-}
-
-.sticky + .test {
-  padding-top: 60px;
-}
