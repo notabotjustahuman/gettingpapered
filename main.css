@@ -18,6 +18,18 @@ h2 {
   bottom: 185px;
 }
 
+h3 {
+  color: black;
+}
+
+h3:hover {
+  text-decoration: underline;
+}
+
+p {
+  color: #8891A0;
+}
+
 .logo {
   height: 120px;
   width: 120px;
