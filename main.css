@@ -37,7 +37,7 @@ p {
 .logo {
   height: 120px;
   width: 120px;
-  padding-left: 265px;
+  padding-left: 260px;
 }
 
 .logo2 {
@@ -132,4 +132,22 @@ div {
 hr {
   align: center;
   width: 666px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.show {
+  animation: fadeIn 1.3s;
 }
